@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Verdana, Tahoma, sans-serif;
+  line-height: 2;
+}
+.nav{
+  height: 6rem;
+  background: #640707;
+  padding: 1rem;
+}
+.title{
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.center{
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.hero{
+  background: linear-gradient(to right,rgb(100, 7, 7), rgb(131, 85, 85, 0.3)), url("./images/coffegrains.jpg") center/cover;
+   height: calc(100vh - 6rem);
+}
+.hero_center{
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 5rem 0;
+  color: #fff; 
+}
+.hero_center h1{
+ letter-spacing: 1px;
+ margin-bottom: 2rem;
+}
+p{
+  width: 40vw;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+  font-family: "monospace", Courier New ;
+  font-size: 1rem;
+}
+button{  
+  background:  transparent;
+  color: #fff;
+  font-size: 1rem;
+  padding: 1rem 1.2rem;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  border: 1px solid #fff;
+}
+@media screen and (min-width: 800px){
+  .hero{
+    background: linear-gradient(to right,rgb(100, 7, 7), rgb(131, 85, 85, 0.3)), url("./images/coffegrains.jpg") center/cover;
+     height: calc(100vh - 6rem);
+  }
+  .hero_center{
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 2.5rem 0;
+    color: #fff; 
+  }
+  .hero_center h1{
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+   }
+  p{
+    width: 40vw;
+    margin-bottom: 1rem;
+    letter-spacing: 0.5px;
+    font-family: "monospace", Courier New ;
+    font-size: 1rem;
+  }
+}
